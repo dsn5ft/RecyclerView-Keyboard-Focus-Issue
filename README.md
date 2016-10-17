@@ -10,3 +10,5 @@ up the keyboard, the keyboard shows and then closes immediately.
 It happens when the keyboard covers the entire EditText row, meaning it might be related to the row being recycled,
 which would cause the EditText to lose focus and the keyboard to hide. This was not an issue in version 23.4.0 of the
 RecyclerView library, even with the RecyclerView's height is set to WRAP_CONTENT.
+
+![Recycler Bug](/recycler-bug.gif?raw=true "Recycler Bug")
